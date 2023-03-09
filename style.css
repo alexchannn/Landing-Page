@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+/* navigation */
+
+li, a, button {
+   font-weight: 600;
+   font-size: 14px;
+   color: #000000;
+   text-decoration: none;
+}
+
+.navbar {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 15px 7%;
+   z-index: 9999;
+}
+
+.logo {
+   cursor: pointer;
+}
+
+.nav_links {
+   list-style: none;
+}
+
+.nav_links li {
+   display: inline-block;
+   padding: 10px 20px;
+}
+
+.nav_links li a {
+   transition: all 0.3s ease 0s;
+}
+
+.demo {
+   border: 2px solid #2F70FE;
+   margin: 0 20px;
+}
+
+.nav_links .demo a {
+   color: #2F70FE;
+   z-index: 100;
+}
+
+.nav_links li i {
+   margin: 0 10px 0 0;
+}
+
+
+/* main page */
+
+main {
+   width: 100%;
+   height: 60vh;
+   background: #2F70FE;
+   position: relative;
+}
+
+.mainpage .register {
+   position: absolute;
+   margin: 250px auto 0;
+   width: 555px;
+   left: 50%;
+   top: 20px;
+   transform: translateX(-50%);
+   text-align: center;
+}
+
+.mainpage svg {
+   margin-top: 470px;
+}
+
+.mainpage .register h1 {
+   font-size: 40px;
+   color: white;
+   line-height: 60px;
+   margin-top: -120px;
+}
+
+.mainpage .register p {
+   font-size: 13px;
+   color: white;
+   line-height: 20px;
+   letter-spacing: 1px;
+   margin-top: 10px;
+}
+
+.mainpage .register button {
+   background: black;
+   color: white;
+   padding: 15px 20px;
+   font-weight: bold;
+   letter-spacing: 1px;
+   margin-top: 25px;
+   border: none;
+   cursor: pointer;
+}
+
+.mainpage .img1 {
+   position: absolute;
+   bottom: -150px;
+   left: 100px;
+   width: 400px;
+   height: auto;
+   z-index: 3;
+}
+
+.mainpage .img2 {
+   position: absolute;
+   right: 180px;
+   top: 305px;
+   width: 300px;
+   height: auto;
+   z-index: 3;
+}
+
+
+/* secondpage */
+
+.secondpage {
+   width: 100%;
+   height: 70vh;
+   background: #00ff8514;
+   position: relative;
+   margin-top: -165px;
+   z-index: -10;
+}
+
+.secondpage .frame1 {
+   position: absolute;
+   left: 1300px;
+   top: 100px;
+}
+
+.secondpage .frame2 {
+   position: absolute;
+   right: 1300px;
+   bottom: 100px;
+}
+
+.secondpage .main {
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   top: 125px;
+   text-align: center;
+}
+
+.secondpage .main h1 {
+   letter-spacing: 2px;
+   font-size: 32px;
+}
+
+.lsg {
+   display: flex;
+   gap: 75px;
+   margin-top: 50px;
+}
+
+.lsg .part {
+   width: 220px;
+}
+
+.lsg .part img {
+   width: 110px;
+   height: auto;
+   margin-bottom: 40px;
+}
+
+.lsg .part p {
+   line-height: 30px;
+}
+
+
+/* pageone pagetwo pagethree pagefour pagefive */
+
+.pageone, .pagetwo, .pagethree, .pagefour, .pagefive{
+   width: 100%;
+   height: 50vh;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 15%;
+   background: #e9e9e914;
+}
+
+.pageone .text {
+   width: 410px;
+}
+
+.pageone .text h2 {
+   width: 350px;
+   font-size: 25px;
+   line-height: 40px;
+}
+
+.pageone .text p {
+   margin-top: 30px;
+   line-height: 30px;
+}
+
+.pagetwo .text {
+   width: 400px;
+}
+
+.pagetwo .text h2 {
+   font-size: 25px;
+   width: 340px;
+   line-height: 35px;
+}
+
+.pagetwo .text p {
+   margin: 25px 0;
+   line-height: 25px;
+}
+
+.pagethree .text {
+   width: 350px;
+}
+
+.pagethree .text h2 {
+   font-size: 25px;
+   width: 330px;
+   line-height: 35px;
+}
+
+.pagethree .text p {
+   margin: 25px 0;
+   line-height: 25px;
+}
+
+.pagefour .text {
+   width: 390px;
+}
+
+.pagefour .text h2 {
+   font-size: 25px;
+   width: 330px;
+   line-height: 35px;
+}
+
+.pagefour .text p {
+   margin: 25px 0;
+   line-height: 25px;
+}
+
+.pagefive .text {
+   width: 360px;
+}
+
+.pagefive .text h2 {
+   font-size: 25px;
+   width: 320px;
+   line-height: 35px;
+}
+
+.pagefive .text p {
+   margin: 25px 0;
+   line-height: 25px;
+}
+
+.text a {
+   text-decoration: none;
+   color: #2F70FE;
+   font-size: 16px;
+}
+
+
+/* footer */
+
+.footer {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: 50vh;
+   background: black;
+   padding: 55px 5% 55px 15%;
+   color: white;
+   justify-content: space-between;
+   position: absolute;
+   top: 2735px;
+}
+
+.footer .top {
+   display: flex;
+}
+
+.top .part {
+   flex: 1;
+}
+
+.top .part ul {
+   list-style: none;
+}
+
+.top .part ul li {
+   margin-bottom: 10px;
+   font-size: 13px;
+   color: white;
+   font-weight: 400;
+}
+
+.top .part ul li:nth-child(1) {
+   font-size: 16px;
+   color: white;
+   margin-bottom: 20px;
+   font-weight: 600;
+   letter-spacing: 1px;
+}
+
+.bottom {
+   display: flex;
+   font-size: 13px;
+   max-width: 830px;
+   justify-content: space-between;
+}
